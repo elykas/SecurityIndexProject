@@ -2,5 +2,5 @@ import pandas as pd
 from config import FILES
 
 
-def load_data():
-    return pd.read_csv(FILES["flightsData"])
+def load_data(filename: str, sep: str = ','):
+    return pd.read_csv(FILES[filename], sep=sep)

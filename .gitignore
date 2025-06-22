@@ -8,7 +8,7 @@ __pycache__/
 *.pyc
 
 # Data folders (if large or sensitive)
-# data/
+data/
 # output/
 
 # Jupyter checkpoints
